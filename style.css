@@ -50,11 +50,23 @@ h1 {
     padding: 20px;
 }
 
+#navbar a {
+    text-transform: uppercase;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#navbar a:hover {
+    color: #d5625f;
+}
+
 .navbar-left, .navbar-right {
     float: left;
     width: 50%;
     /* padding: 20px; */
 }
+
+
 /* jumbo */
 #jumbo {
     height: 100px;
@@ -64,6 +76,23 @@ h1 {
     align-items: center;
     padding: 150px;
     line-height: 90px;
+}
+
+#jumbo button {
+    text-transform: uppercase;
+    padding: 18px 38px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+#jumbo button:hover {
+    border: 1px solid #aeafae;
+    color: #aeafae;
 }
 
 .motivation-navbar {
