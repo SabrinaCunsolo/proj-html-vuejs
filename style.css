@@ -12,8 +12,18 @@ body {
 header {
     background-image: url(images/home-banner.jpg);
     height: 750px;
-    background-size: cover;
+    background-size: auto;
     background-position: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: 110px;
+    text-transform: uppercase;
 }
 
 .container {
@@ -29,13 +39,14 @@ header {
     display: table;
 }
 
+/* navbar */
 #navbar {
     height: 100px;
     max-width: 100%;
-    background-color: red;
-    text-decoration: none;
+    /* background-color: red; */
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px;
 }
 
@@ -43,4 +54,19 @@ header {
     float: left;
     width: 50%;
     /* padding: 20px; */
+}
+/* jumbo */
+#jumbo {
+    height: 100px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+    line-height: 90px;
+}
+
+.motivation-navbar {
+    font-weight: 300;
+    font-size: 20px;
 }
