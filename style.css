@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #252a2d;
+    background-color: #212425;
 }
 
 header {
@@ -26,6 +26,15 @@ h1 {
     text-transform: uppercase;
 }
 
+h3 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+p {
+    color: #aeafae;
+}
+
 .container {
     min-height: 100vh;
     color: white;
@@ -43,11 +52,10 @@ h1 {
 #navbar {
     height: 100px;
     max-width: 100%;
-    /* background-color: red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 100px;
 }
 
 #navbar a {
@@ -98,4 +106,55 @@ h1 {
 .motivation-navbar {
     font-weight: 300;
     font-size: 20px;
+}
+
+/* main */
+main {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+/* world class */
+.world-class {
+    padding: 130px;
+    text-align: center;
+    max-width: 100%;
+    background-color: #25292B;
+    line-height: 60px;
+}
+/* world class fitness */
+.world-class-fitness {
+
+}
+
+.world-class-text {
+    font-size: 18px;
+    padding: 5px 150px;
+
+    line-height: 40px;
+}
+
+/* training session */
+.training-session {
+    padding: 130px;
+    text-align: center;
+    width: 100%;
+    line-height: 60px;
+    background-color: #1F2123;
+    display: flex;
+    align-items: center;
+}
+
+.img-training, .sign-up {
+    float: left;
+}
+
+.sign-up {
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
