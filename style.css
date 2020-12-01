@@ -26,6 +26,15 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+h2:hover {
+    color: #ED605A;
+}
+
 h3 {
     font-size: 35px;
     text-transform: uppercase;
@@ -111,7 +120,7 @@ p {
 /* main */
 main {
     max-width: 100%;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     align-items: center;
     color: white;
@@ -190,9 +199,56 @@ main {
     padding: 16px 210px;
     border: 1px solid #ED605A;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 .training-box button:hover {
     background-color: #DF5B53;
     border: 1px solid #DF5B53;
+}
+
+/* activities */
+.activities {
+    background-image: url(images/gym_bkgd_bw-compressor.jpg);
+    height: 550px;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.activities-box {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.strength-box {
+    max-width: 25%;
+    padding: 13px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #ED605A;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.activities-box i {
+    color: #ED605A;
+    font-size: 40px;
+    line-height: 80px;
+}
+
+.strength-text {
+    font-size: 15px;
+    color: #aaa9a9;
 }
