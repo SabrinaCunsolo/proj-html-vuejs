@@ -32,7 +32,7 @@ h3 {
 }
 
 p {
-    color: #aeafae;
+    color: #aaa9a9;
 }
 
 .container {
@@ -65,7 +65,7 @@ p {
 }
 
 #navbar a:hover {
-    color: #d5625f;
+    color: #ED605A;
 }
 
 .navbar-left, .navbar-right {
@@ -99,8 +99,8 @@ p {
 }
 
 #jumbo button:hover {
-    border: 1px solid #aeafae;
-    color: #aeafae;
+    border: 1px solid #aaa9a9;
+    color: #aaa9a9;
 }
 
 .motivation-navbar {
@@ -146,15 +146,53 @@ main {
     background-color: #1F2123;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.img-training, .sign-up {
-    float: left;
+.training-box {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+
 }
 
 .sign-up {
-    width: 500px;
+    width: 600px;
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+.sign-up-text {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.training-box label {
+    color: #aaa9a9;
+    font-size: 13px;
+}
+
+.training-box input {
+    background-color: transparent;
+    font-size: 13px;
+    color: #3e4346;
+    border: 1px solid #3e4346;
+    padding: 16px 193px;
+}
+
+.training-box button {
+    background-color: #ED605A;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 16px 210px;
+    border: 1px solid #ED605A;
+    margin-top: 30px;
+}
+
+.training-box button:hover {
+    background-color: #DF5B53;
+    border: 1px solid #DF5B53;
 }
