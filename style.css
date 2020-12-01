@@ -44,6 +44,10 @@ p {
     color: #aaa9a9;
 }
 
+em {
+    color: #aaa9a9;
+}
+
 .container {
     min-height: 100vh;
     color: white;
@@ -135,10 +139,6 @@ main {
     line-height: 60px;
 }
 /* world class fitness */
-.world-class-fitness {
-
-}
-
 .world-class-text {
     font-size: 18px;
     padding: 5px 150px;
@@ -251,4 +251,60 @@ main {
 .strength-text {
     font-size: 15px;
     color: #aaa9a9;
+}
+
+/* real world */
+.real-world {
+    background-color: #25292B;
+    padding: 130px;
+    text-align: center;
+    max-width: 100%;
+    line-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.real-box {
+    width: 1200px;
+}
+
+.real-world-cards1 {
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.real-world-cards2 {
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.real-card {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.real-text {
+    text-align: left;
+    line-height: 30px;
+    padding: 0px 20px 0px 30px;
+}
+
+.real-text p {
+    font-weight: bold;
+}
+
+.card1 {
+    width: 100%;
+    background-color: #1F2123;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    padding: 20px;
 }
