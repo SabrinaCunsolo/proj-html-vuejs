@@ -308,3 +308,24 @@ main {
     display: flex;
     padding: 20px;
 }
+
+/* facilities */
+.facilities {
+    background-color: #25292B;
+    padding: 130px;
+    text-align: center;
+    max-width: 100%;
+    line-height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.facilities-box {
+    width: 1300px;
+    margin-top: 40px;
+}
+
+.facilities-box img {
+    padding: 0px 20px 0px 20px;
+}
