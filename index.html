@@ -13,341 +13,341 @@
         <title>Avada Gym</title>
     </head>
     <body>
-        <div class="container">
-            <!-- header -->
-            <header>
-                <!-- navbar -->
-                <div id="navbar">
-                    <div class="navbar-left">
-                        <a href="#"><img src="images/gym_logo_1x.png" alt="Logo"></a>
-                    </div>
-                    <div class="navbar-righ">
-                        <a href="#">Home</a>
-                        <a href="#">About us</a>
-                        <a href="#">Facilities</a>
-                        <a href="#">Membership</a>
-                        <a href="#">Testimonials</a>
-                        <a href="#">Blog</a>
-                    </div>
-                </div>
-                <!-- jumbo -->
-                <div id="jumbo">
-                        <h1>No pain no gain</h1>
-                        <span class="motivation-navbar">Motivation is what gets uou started. Habits is what keeps you going.</span>
-                        <a href="#"> <button type="button" name="button"> Join us today</button></a>
-                </div>
-            </header>
-            <!-- main -->
-            <main>
-                <div class="world-class">
-                    <h3 class="world-class-fitness">
-                        world class fitness
-                    </h3>
-                    <img src="images/divider-xx-red.png" alt="x x">
-                    <p class="world-class-text">
-                        At Avada Gym, everything we do from top to bottom is of the highest quality to ensure we’re equipped to help you reach your goals of a healthy and fit lifestyle.
-                    </p>
-                </div>
-                <div class="training-session">
-                    <div class="training-box">
-                        <img class="img-training" src="images/home_img-compressor.jpg" alt="">
-                        <div class="sign-up">
-                            <div class="sign-up-text">
-                                Sign Up For A Free Training Session!
-                            </div>
-                            <label for="">Name*</label>
-                            <input type="text">
-                            <label for="">Email</label>
-                            <input type="email">
-                            <button type="button" name="button">start now!</button>
+            <div id="container">
+                <!-- header -->
+                <header>
+                    <!-- navbar -->
+                    <div id="navbar">
+                        <div class="navbar-left">
+                            <a href="#"><img :src="logoNavbar" alt="Logo"></a>
+                        </div>
+                        <div class="navbar-right">
+                            <a v-for="listaMenu in menu" href="#"> {{ listaMenu }} </a>
+                            <!-- <a href="#">Home</a>
+                            <a href="#">About us</a>
+                            <a href="#">Facilities</a>
+                            <a href="#">Membership</a>
+                            <a href="#">Testimonials</a>
+                            <a href="#">Blog</a> -->
                         </div>
                     </div>
-                </div>
-                <div class="activities">
-                    <div class="activities-box">
-                        <div class="strength-box">
-                            <div class="circle">
-                                <i class="fas fa-unlink"></i>
-                            </div>
-                            <h2>Strength & Conditioning</h2>
-                            <img src="images/divider-x-red.png" alt="">
-                            <div class="strength-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.
-                            </div>
-                        </div>
-                        <div class="strength-box">
-                            <div class="circle">
-                                <i class="fas fa-bicycle"></i>
-                            </div>
-                            <h2>Fitness & Cardio</h2>
-                            <img src="images/divider-x-red.png" alt="">
-                            <div class="strength-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.
-                            </div>
-                        </div>
-                        <div class="strength-box">
-                            <div class="circle">
-                                <i class="fab fa-skyatlas"></i>
-                            </div>
-                            <h2>Flexibility & Rest</h2>
-                            <img src="images/divider-x-red.png" alt="">
-                            <div class="strength-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.
-                            </div>
-                        </div>
-                        <div class="strength-box">
-                            <div class="circle">
-                                <i class="fas fa-heartbeat"></i>
-                            </div>
-                            <h2>Health & Diet</h2>
-                            <img src="images/divider-x-red.png" alt="">
-                            <div class="strength-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.
-                            </div>
-                        </div>
+                    <!-- jumbo -->
+                    <div id="jumbo">
+                            <h1>No pain no gain</h1>
+                            <span class="motivation-navbar">Motivation is what gets uou started. Habits is what keeps you going.</span>
+                            <a href="#"> <button type="button" name="button"> Join us today</button></a>
                     </div>
-                </div>
-                <div class="real-world">
-                    <div class="real-box">
+                </header>
+                <!-- main -->
+                <main>
+                    <div class="world-class">
                         <h3 class="world-class-fitness">
-                            real world results
+                            world class fitness
                         </h3>
                         <img src="images/divider-xx-red.png" alt="x x">
-                            <div class="real-world-cards1">
-                                <div class="real-card">
-                                    <div class="card1">
-                                        <div class="real-img">
-                                            <img src="images/review_1-compressor.jpg" alt="">
-                                        </div>
-                                        <div class="real-text">
-                                        <em>“The trainers at Avada Gym have helped me reach my fitness goals beyond anything I could of hoped for. I love it!”</em> <p>– Tara Smith</p>
-                                        </div>
-                                    </div>
+                        <p class="world-class-text">
+                            At Avada Gym, everything we do from top to bottom is of the highest quality to ensure we’re equipped to help you reach your goals of a healthy and fit lifestyle.
+                        </p>
+                    </div>
+                    <div class="training-session">
+                        <div class="training-box">
+                            <img class="img-training" src="images/home_img-compressor.jpg" alt="">
+                            <div class="sign-up">
+                                <div class="sign-up-text">
+                                    Sign Up For A Free Training Session!
                                 </div>
-                                <div class="real-card">
-                                    <div class="card1">
-                                        <div class="real-img">
-                                            <img src="images/review_3-compressor-2.jpg" alt="">
-                                        </div>
-                                        <div class="real-text">
-                                        <em>“The atmosphere at Avada Gym is amazing, the people are even better. All in all, it is a great place to work out.”</em> <p>– Simon Chel</p>
-                                        </div>
-                                    </div>
+                                <label for="">Name*</label>
+                                <input type="text">
+                                <label for="">Email</label>
+                                <input type="email">
+                                <button type="button" name="button">start now!</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="activities">
+                        <div class="activities-box">
+                            <div class="strength-box">
+                                <div class="circle">
+                                    <i class="fas fa-unlink"></i>
+                                </div>
+                                <h2>Strength & Conditioning</h2>
+                                <img src="images/divider-x-red.png" alt="">
+                                <div class="strength-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.
                                 </div>
                             </div>
-                            <div class="real-world-cards2">
-                                <div class="real-card">
-                                    <div class="card1">
-                                        <div class="real-img">
-                                            <img src="images/review_2-compressor.jpg" alt="">
-                                        </div>
-                                        <div class="real-text">
-                                        <em>“The facilities at Avada Gym stood out to me the most. They are well maintained and have high quality equipment.”</em> <p>– Jen Wirth</p>
-                                        </div>
-                                    </div>
+                            <div class="strength-box">
+                                <div class="circle">
+                                    <i class="fas fa-bicycle"></i>
                                 </div>
-                                <div class="real-card">
-                                    <div class="card1">
-                                        <div class="real-img">
-                                            <img src="images/review_4-compressor-2.jpg" alt="">
-                                        </div>
-                                        <div class="real-text">
-                                        <em>“No bad things to say about Avada Gym, they are top notch at every corner and truly take care of their customers.”</em> <p>– Jeff Glum</p>
-                                        </div>
-                                    </div>
+                                <h2>Fitness & Cardio</h2>
+                                <img src="images/divider-x-red.png" alt="">
+                                <div class="strength-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.
                                 </div>
                             </div>
+                            <div class="strength-box">
+                                <div class="circle">
+                                    <i class="fab fa-skyatlas"></i>
+                                </div>
+                                <h2>Flexibility & Rest</h2>
+                                <img src="images/divider-x-red.png" alt="">
+                                <div class="strength-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.
+                                </div>
+                            </div>
+                            <div class="strength-box">
+                                <div class="circle">
+                                    <i class="fas fa-heartbeat"></i>
+                                </div>
+                                <h2>Health & Diet</h2>
+                                <img src="images/divider-x-red.png" alt="">
+                                <div class="strength-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="real-world">
+                        <div class="real-box">
+                            <h3 class="world-class-fitness">
+                                real world results
+                            </h3>
+                            <img src="images/divider-xx-red.png" alt="x x">
+                                <div class="real-world-cards1">
+                                    <div class="real-card">
+                                        <div class="card1">
+                                            <div class="real-img">
+                                                <img src="images/review_1-compressor.jpg" alt="">
+                                            </div>
+                                            <div class="real-text">
+                                            <em>“The trainers at Avada Gym have helped me reach my fitness goals beyond anything I could of hoped for. I love it!”</em> <p>– Tara Smith</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="real-card">
+                                        <div class="card1">
+                                            <div class="real-img">
+                                                <img src="images/review_3-compressor-2.jpg" alt="">
+                                            </div>
+                                            <div class="real-text">
+                                            <em>“The atmosphere at Avada Gym is amazing, the people are even better. All in all, it is a great place to work out.”</em> <p>– Simon Chel</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="real-world-cards2">
+                                    <div class="real-card">
+                                        <div class="card1">
+                                            <div class="real-img">
+                                                <img src="images/review_2-compressor.jpg" alt="">
+                                            </div>
+                                            <div class="real-text">
+                                            <em>“The facilities at Avada Gym stood out to me the most. They are well maintained and have high quality equipment.”</em> <p>– Jen Wirth</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="real-card">
+                                        <div class="card1">
+                                            <div class="real-img">
+                                                <img src="images/review_4-compressor-2.jpg" alt="">
+                                            </div>
+                                            <div class="real-text">
+                                            <em>“No bad things to say about Avada Gym, they are top notch at every corner and truly take care of their customers.”</em> <p>– Jeff Glum</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-                    </div>
-                </div>
-                <div class="facilities">
-                    <h3 class="world-class-fitness">
-                        high performance facilities
-                    </h3>
-                    <img src="images/divider-xx-red.png" alt="x x">
-                    <div class="facilities-box">
-                        <img src="images/home-image1.jpg" alt="">
-                        <img src="images/home-image2.jpg" alt="">
-                        <img src="images/home-image3.jpg" alt="">
-                        <img src="images/home-image4.jpg" alt="">
-                        <img src="images/home-image54.jpg" alt="">
-                        <img src="images/home-image6.jpg" alt="">
-                    </div>
-                </div>
-                <div class="quote">
-                    <div class="quote-box">
-                        <span>“ I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times ”</span>
-                        <img src="images/divider-white-xx.png" alt="">
-                        <div>Bruce Lee • quote of the day</div>
-                    </div>
-                </div>
-                <div class="trainers">
-                    <h3 class="world-class-fitness">
-                        meet our trainers
-                    </h3>
-                    <img class="xx" src="images/divider-xx-red.png" alt="x x">
-                    <div class="trainers-box">
-                        <div class="trainer-card">
-                            <img src="images/trainer1-400x297.jpg" alt="">
-                            <div class="trainer-text">
-                                <span>Ann Baker</span>
-                                <span>Personal Trainer</span>
-                                <div class="strength-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, onare volutpat.
-                                </div>
-                                <div class="social-icon">
-                                    <i class="fab fa-facebook-f"></i>
-                                    <i class="fab fa-twitter"></i>
-                                    <i class="fab fa-instagram"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="trainer-card">
-                            <img src="images/trainer3-400x297.jpg" alt="">
-                            <div class="trainer-text">
-                                <span>Ann Warrenr</span>
-                                <span>Personal Trainer</span>
-                                <div class="strength-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, onare volutpat.
-                                </div>
-                                <div class="social-icon">
-                                    <i class="fab fa-facebook-f"></i>
-                                    <i class="fab fa-twitter"></i>
-                                    <i class="fab fa-instagram"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="trainer-card">
-                            <img src="images/trainer4-400x297.jpg" alt="">
-                            <div class="trainer-text">
-                                <span>Peter Rice</span>
-                                <span>Personal Trainer</span>
-                                <div class="strength-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, onare volutpat.
-                                </div>
-                                <div class="social-icon">
-                                    <i class="fab fa-facebook-f"></i>
-                                    <i class="fab fa-twitter"></i>
-                                    <i class="fab fa-instagram"></i>
-                                </div>
-                            </div>
                         </div>
                     </div>
-                    <a href="#"> <button type="button" name="button"> View all trainers</button></a>
-                </div>
-                <div class="performance">
-                    <h3 class="world-class-fitness">
-                        performance news
-                    </h3>
-                    <img class="xx" src="images/divider-xx-red.png" alt="x x">
-                    <div class="performance-box">
-                        <div class="performance-card">
-                            <div class="perf-card">
-                                <img src="images/blog1-400x208.jpg" alt="">
-                                <div class="perf-text">
-                                    <a href="#">Train with free weights or your body weight?</a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]</p>
-                                </div>
-                            </div>
-                            <div class="perf-card">
-                                <img src="images/blog4-400x289.jpg" alt="">
-                                <div class="perf-text">
-                                    <a href="#">To be number one, train like you’re number two</a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]</p>
-                                </div>
-                            </div>
+                    <div class="facilities">
+                        <h3 class="world-class-fitness">
+                            high performance facilities
+                        </h3>
+                        <img src="images/divider-xx-red.png" alt="x x">
+                        <div class="facilities-box">
+                            <img src="images/home-image1.jpg" alt="">
+                            <img src="images/home-image2.jpg" alt="">
+                            <img src="images/home-image3.jpg" alt="">
+                            <img src="images/home-image4.jpg" alt="">
+                            <img src="images/home-image54.jpg" alt="">
+                            <img src="images/home-image6.jpg" alt="">
                         </div>
-                        <div class="performance-card">
-                            <div class="perf-card">
-                                <img src="images/blog6-400x400.jpg" alt="">
-                                <div class="perf-text">
-                                    <a href="#">Nutritional advice that will keep you training</a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]</p>
-                                </div>
-                            </div>
-                            <div class="perf-card">
-                                <img src="images/trainer3-400x297.jpg" alt="">
-                                <div class="perf-text">
-                                    <a href="#">Top 5 mistakes every gym member makes</a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]</p>
-                                </div>
-                            </div>
+                    </div>
+                    <div class="quote">
+                        <div class="quote-box">
+                            <span>“ I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times ”</span>
+                            <img src="images/divider-white-xx.png" alt="">
+                            <div>Bruce Lee • quote of the day</div>
                         </div>
-                        <div class="performance-card">
-                            <div class="perf-card">
-                                <img src="images/trainer4-400x297.jpg" alt="">
-                                <div class="perf-text">
-                                    <a href="#">Simple principles for your next workout</a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]</p>
-                                </div>
-                            </div>
-                            <div class="perf-card">
+                    </div>
+                    <div class="trainers">
+                        <h3 class="world-class-fitness">
+                            meet our trainers
+                        </h3>
+                        <img class="xx" src="images/divider-xx-red.png" alt="x x">
+                        <div class="trainers-box">
+                            <div class="trainer-card">
                                 <img src="images/trainer1-400x297.jpg" alt="">
-                                <div class="perf-text">
-                                    <a href="#">The myths of shedding body fat explored</a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]</p>
+                                <div class="trainer-text">
+                                    <span>Ann Baker</span>
+                                    <span>Personal Trainer</span>
+                                    <div class="strength-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, onare volutpat.
+                                    </div>
+                                    <div class="social-icon">
+                                        <i class="fab fa-facebook-f"></i>
+                                        <i class="fab fa-twitter"></i>
+                                        <i class="fab fa-instagram"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="trainer-card">
+                                <img src="images/trainer3-400x297.jpg" alt="">
+                                <div class="trainer-text">
+                                    <span>Ann Warrenr</span>
+                                    <span>Personal Trainer</span>
+                                    <div class="strength-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, onare volutpat.
+                                    </div>
+                                    <div class="social-icon">
+                                        <i class="fab fa-facebook-f"></i>
+                                        <i class="fab fa-twitter"></i>
+                                        <i class="fab fa-instagram"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="trainer-card">
+                                <img src="images/trainer4-400x297.jpg" alt="">
+                                <div class="trainer-text">
+                                    <span>Peter Rice</span>
+                                    <span>Personal Trainer</span>
+                                    <div class="strength-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, onare volutpat.
+                                    </div>
+                                    <div class="social-icon">
+                                        <i class="fab fa-facebook-f"></i>
+                                        <i class="fab fa-twitter"></i>
+                                        <i class="fab fa-instagram"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <a href="#"> <button type="button" name="button"> View all trainers</button></a>
                     </div>
-                    <a href="#"> <button type="button" name="button"> Read all articles</button></a>
-                </div>
-                <div class="fitness-goals">
-                    <div class="fitness-box">
-                        <div class="fitness-text">
-                            <span>Achieve Your Fitness Goals</span>
-                            <p>Flexible membership packages to suit all levels of athlete and achive your fitness goals</p>
+                    <div class="performance">
+                        <h3 class="world-class-fitness">
+                            performance news
+                        </h3>
+                        <img class="xx" src="images/divider-xx-red.png" alt="x x">
+                        <div class="performance-box">
+                            <div class="performance-card">
+                                <div class="perf-card">
+                                    <img src="images/blog1-400x208.jpg" alt="">
+                                    <div class="perf-text">
+                                        <a href="#">Train with free weights or your body weight?</a>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]</p>
+                                    </div>
+                                </div>
+                                <div class="perf-card">
+                                    <img src="images/blog4-400x289.jpg" alt="">
+                                    <div class="perf-text">
+                                        <a href="#">To be number one, train like you’re number two</a>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="performance-card">
+                                <div class="perf-card">
+                                    <img src="images/blog6-400x400.jpg" alt="">
+                                    <div class="perf-text">
+                                        <a href="#">Nutritional advice that will keep you training</a>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]</p>
+                                    </div>
+                                </div>
+                                <div class="perf-card">
+                                    <img src="images/trainer3-400x297.jpg" alt="">
+                                    <div class="perf-text">
+                                        <a href="#">Top 5 mistakes every gym member makes</a>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="performance-card">
+                                <div class="perf-card">
+                                    <img src="images/trainer4-400x297.jpg" alt="">
+                                    <div class="perf-text">
+                                        <a href="#">Simple principles for your next workout</a>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]</p>
+                                    </div>
+                                </div>
+                                <div class="perf-card">
+                                    <img src="images/trainer1-400x297.jpg" alt="">
+                                    <div class="perf-text">
+                                        <a href="#">The myths of shedding body fat explored</a>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pretium, tortor vitae porttitor suscipit, sapien purus aliquet risus, eu finibus arcu ante nec risus. [...]</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <a href="#"> <button type="button" name="button"> Join us</button></a>
+                        <a href="#"> <button type="button" name="button"> Read all articles</button></a>
                     </div>
-                </div>
-            </main>
-            <footer>
-                <div class="footer-top">
-                    <div class="footer-top-box">
-                        <div class="footer-card">
-                            <h4>come find us</h4>
-                            <div class="strength-text">12345 North Main Street</div>
-                            <div class="strength-text">New York, NY 555555</div>
-                            <div class="strength-text">Phone: 1.800.555.6789</div>
-                            <div class="strength-text">Email: info@your-domain.com</div>
-                        </div>
-                        <div class="footer-card">
-                            <h4>recent post</h4>
-                            <div class="strength-text footer-border"><a href="#"><i class="fas fa-angle-right"></i> Train with free weights or your body weight?</a></div>
-                            <div class="strength-text footer-border"><a href="#"><i class="fas fa-angle-right"></i> Nutritional advice that will keep you training</a></div>
-                        </div>
-                        <div class="footer-card">
-                            <h4>opening times</h4>
-                            <div class="strength-text">Weekdays Monday - Friday</div>
-                            <div class="strength-text hours-footer">09:00 - 19:00</div>
-                            <div class="strength-text">Weekends Saturday - Sunday</div>
-                            <div class="strength-text hours-footer">09:00 - 21:00</div>
-                        </div>
-                        <div class="footer-card">
-                            <img src="images/gym_ad-compressor.jpg" alt="">
+                    <div class="fitness-goals">
+                        <div class="fitness-box">
+                            <div class="fitness-text">
+                                <span>Achieve Your Fitness Goals</span>
+                                <p>Flexible membership packages to suit all levels of athlete and achive your fitness goals</p>
+                            </div>
+                            <a href="#"> <button type="button" name="button"> Join us</button></a>
                         </div>
                     </div>
-                </div>
-                <div class="footer-bottom">
-                    <div class="footer-bottom-box">
-                        <div class="footer-bottom-text">
-                            <h6>© Copyright 2012 - 2020</h6>   |
-                            <h6>Avada Theme by Theme Fusion</h6>   |
-                            <h6>All Rights Reserved</h6>   |
-                            <h6>Powered by WordPress</h6>
+                </main>
+                <footer>
+                    <div class="footer-top">
+                        <div class="footer-top-box">
+                            <div class="footer-card">
+                                <h4>come find us</h4>
+                                <div class="strength-text">12345 North Main Street</div>
+                                <div class="strength-text">New York, NY 555555</div>
+                                <div class="strength-text">Phone: 1.800.555.6789</div>
+                                <div class="strength-text">Email: info@your-domain.com</div>
+                            </div>
+                            <div class="footer-card">
+                                <h4>recent post</h4>
+                                <div class="strength-text footer-border"><a href="#"><i class="fas fa-angle-right"></i> Train with free weights or your body weight?</a></div>
+                                <div class="strength-text footer-border"><a href="#"><i class="fas fa-angle-right"></i> Nutritional advice that will keep you training</a></div>
+                            </div>
+                            <div class="footer-card">
+                                <h4>opening times</h4>
+                                <div class="strength-text">Weekdays Monday - Friday</div>
+                                <div class="strength-text hours-footer">09:00 - 19:00</div>
+                                <div class="strength-text">Weekends Saturday - Sunday</div>
+                                <div class="strength-text hours-footer">09:00 - 21:00</div>
+                            </div>
+                            <div class="footer-card">
+                                <img src="images/gym_ad-compressor.jpg" alt="">
+                            </div>
                         </div>
-                        <div class="social-icon">
-                            <i class="fab fa-facebook-f"></i>
-                            <i class="fab fa-twitter"></i>
-                            <i class="fab fa-instagram"></i>
-                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="footer-bottom-box">
+                            <div class="footer-bottom-text">
+                                <h6>© Copyright 2012 - 2020</h6>   |
+                                <h6>Avada Theme by Theme Fusion</h6>   |
+                                <h6>All Rights Reserved</h6>   |
+                                <h6>Powered by WordPress</h6>
+                            </div>
+                            <div class="social-icon">
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-instagram"></i>
+                            </div>
 
+                        </div>
                     </div>
-                </div>
-            </footer>
-        </div>
-
+                </footer>
+            </div>
 
         <!-- js -->
         <script src="main.js" charset="utf-8"></script>

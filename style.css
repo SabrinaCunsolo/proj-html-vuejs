@@ -24,6 +24,7 @@ a {
 h1 {
     font-size: 110px;
     text-transform: uppercase;
+    color: white;
 }
 
 h2 {
@@ -127,6 +128,7 @@ button:hover {
     align-items: center;
     padding: 150px;
     line-height: 90px;
+    color: white;
 }
 
 .motivation-navbar {
