@@ -55,14 +55,14 @@ button {
     text-align: center;
     text-decoration: none;
     background-color: transparent;
-    border: 1px solid white;
-    color: white;
+    border: 1px solid #aaa9a9;
+    color: #aaa9a9;
     cursor: pointer;
 }
 
 button:hover {
-    border: 1px solid #aaa9a9;
-    color: #aaa9a9;
+    border: 1px solid white;
+    color: white;
 }
 
 .container {
@@ -436,4 +436,52 @@ main {
 .social-icon i:hover {
     background-color: #202325;
     color: #D4D4D5;
+}
+
+/* performance */
+.performance {
+    background-color: #25292B;
+    padding: 130px;
+    text-align: center;
+    max-width: 100%;
+    line-height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.performance-box {
+    width: 1350px;
+    margin-top: 40px;
+}
+
+.performance-card {
+    width: 400px;
+    float: left;
+    margin: 20px;
+}
+
+.perf-card {
+    width: auto;
+    /* height: 630px; */
+    background-color: #1F2123;
+    float: left;
+    margin: 20px;
+    text-align: left;
+    float: left;
+    line-height: 30px;
+}
+
+.perf-text{
+    text-align: left;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.perf-text a {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
 }
