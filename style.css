@@ -47,6 +47,12 @@ h4 {
     font-weight: 500;
 }
 
+h6 {
+    color: #979797;
+    font-size: 13px;
+    font-weight: normal;
+}
+
 p {
     color: #aaa9a9;
 }
@@ -144,13 +150,18 @@ main {
     max-width: 100%;
     background-color: #25292B;
     line-height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /* world class fitness */
 .world-class-text {
     font-size: 18px;
-    padding: 5px 150px;
-
+    padding: 30px;
     line-height: 40px;
+    width: 1000px;
+    margin-top: 20px;
 }
 
 /* training session */
@@ -506,7 +517,7 @@ main {
 
 .fitness-box {
     width: 1300px;
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -534,6 +545,7 @@ main {
 }
 
 /* footer */
+/* footer top */
 .footer-top {
     background-color: #1F2123;
     padding: 80px;
@@ -577,4 +589,46 @@ main {
 
 .footer-card .hours-footer {
     color: #485053;
+}
+
+/* footer bottom */
+.footer-bottom {
+    background-color: #1A1C1F;
+    /* height: 220px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom-box {
+    width: 1300px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 40px;
+}
+
+.footer-bottom-text {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #979797;
+}
+
+.footer-bottom-box .social-icon i {
+    width: 40px;
+    height: 40px;
+    background-color: #ED605A;
+    color: white;
+    margin-right: 10px;
+    border-radius: 10%;
+    line-height: 40px;
+    text-align: center;
+}
+
+.footer-bottom-box .social-icon i:hover {
+    background-color: #C5534E;
+    color: #D4D4D5;
 }
