@@ -40,6 +40,13 @@ h3 {
     text-transform: uppercase;
 }
 
+h4 {
+    color: #6B777A;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
 p {
     color: #aaa9a9;
 }
@@ -484,4 +491,90 @@ main {
     font-weight: bold;
     font-size: 20px;
     padding-bottom: 10px;
+}
+
+/* fitness goals */
+.fitness-goals {
+    background-image: url(images/home-parallax.jpg);
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fitness-box {
+    width: 1300px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 40px;
+}
+
+.fitness-text span {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.fitness-text p {
+    font-size: 18px;
+    color: white;
+}
+
+.fitness-box button {
+    color: #ffcccc;
+    border: 1px solid #ffcccc;
+}
+
+.fitness-box button:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+/* footer */
+.footer-top {
+    background-color: #1F2123;
+    padding: 80px;
+    text-align: center;
+    max-width: 100%;
+    line-height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-top-box {
+    width: 1350px;
+    margin-top: 40px;
+}
+
+.footer-card {
+    width: 300px;
+    float: left;
+    margin: 18px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.footer-card h4 {
+    padding-bottom: 20px;
+}
+
+.footer-card .footer-border {
+    border-bottom: 1px solid #3e4447;
+    padding: 5px 20px 15px 0px;
+}
+
+.footer-card a {
+    color: #979797;
+}
+
+.footer-card a:hover {
+    color: #ED605A;
+}
+
+.footer-card .hours-footer {
+    color: #485053;
 }
