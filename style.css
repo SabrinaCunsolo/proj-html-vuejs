@@ -343,11 +343,26 @@ main {
 
 .facilities-box {
     width: 1300px;
-    margin-top: 40px;
 }
 
-.facilities-box img {
-    padding: 0px 20px 0px 20px;
+.facilities-img{
+    float: left;
+    margin: 25px;
+    width: 370px;
+    height: 250px;
+}
+
+.facilities-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.facilities-img:hover{
+    transform: scale(1.08);
+    margin-bottom: 0px;
+    box-shadow: -1px 2px 36px 7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 2px 36px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 36px 7px rgba(0,0,0,0.75);
 }
 
 /* quote */
@@ -407,11 +422,30 @@ main {
 }
 
 .trainer-card {
-    width: 400px;;
+    width: 400px;
     height: 630px;
     background-color: #25292B;
     float: left;
     margin: 20px;
+}
+
+.trainer-img{
+    float: left;
+    width: 400px;
+    height: 297px;
+}
+
+.trainer-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.trainer-img:hover{
+    transform: scale(1.08);
+    margin-bottom: 0px;
+    box-shadow: -1px 2px 36px 7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 2px 36px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 36px 7px rgba(0,0,0,0.75);
 }
 
 .trainer-text {
@@ -420,6 +454,7 @@ main {
     display: flex;
     flex-direction: column;
     padding: 0px 130px 30px 30px;
+    margin-top: 40px;
     line-height: 25px;
 }
 
